@@ -1,0 +1,71 @@
+    ! Define the viapoint of the path
+    PERS robtarget B0:=[[36.0,128.0,100],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget B1:=[[36.0,128.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget B2:=[[36.0,93.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget B3:=[[52.0,93.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget B4:=[[58.0,101.75,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget B5:=[[52.0,110.5,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget B6:=[[36.0,110.5,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget B7:=[[58.0,119.25,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget B8:=[[52.0,128.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget B9:=[[36.0,128.0,20],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+
+    PERS robtarget L_0:=[[80.0,128,20],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget L_1:=[[80.0,128,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget L_2:=[[80.0,93,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget L_3:=[[96.0,93.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget L_4:=[[96.0,93.0,20],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+
+    PERS robtarget J_0:=[[107.0,105.0,20],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget J_1:=[[107.0,105.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget J_2:=[[117.0,93.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget J_3:=[[129.0,105.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget J_4:=[[129.0,128.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget J_5:=[[129.0,128.0,20],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+
+    PERS robtarget T_0:=[[162.0,93.0,20],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget T_1:=[[162.0,93.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget T_2:=[[162.0,128,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget T_3:=[[146.0,128.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget T_4:=[[178.0,128.0,-3.48],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    PERS robtarget T_5:=[[178.0,128.0,10],[0.0197915,0.998036,0.0594276,-0.000234469],[0,1,-3,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+
+    
+    
+    PROC path_10()
+        MoveJ p_ready_to_write,vWait,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL B0,v100,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL B1,v30,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL B2,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL B3,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveC B4,B5,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL B6,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL B5,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveC B7,B8,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL B1,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL B9,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+
+        MoveJ L_0,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL L_1,v30,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL L_2,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL L_3,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL L_4,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+
+        MoveJ J_0,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL J_1,v30,fine,tPen\WObj:=wobj_penVBOT;
+        MoveC J_2,J_3,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL J_4,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL J_5,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+
+        MoveJ T_0,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL T_1,v30,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL T_2,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL T_3,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL T_4,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+        MoveL T_5,Vdraw,fine,tPen\WObj:=wobj_penVBOT;
+ 	    MoveJ p_ready_to_write,vWait,fine,tPen\WObj:=wobj_penVBOT;
+        
+        homing;
+        
+       
+    ENDPROC
