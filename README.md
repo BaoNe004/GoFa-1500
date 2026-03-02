@@ -1,10 +1,10 @@
 # GoFa-CRB 15000-Project
 
-## Problem 1: Developing a Digital Robot Model (20 pts)
+## Problem 1: Developing a Digital Robot Model 
 
 ### 1A. DH Parameters + Forward Kinematics
 Description:
-- Place coordinate frames on the GoFa robot model.
+- Place coordinate frames on the GoFa robot model in CAD file.
 - Derive Denavit–Hartenberg (DH) parameters.
 - Compute forward kinematics from base frame to end-effector frame.
 
@@ -40,12 +40,11 @@ Solution:
 - Inverse Jacobian block to compute joint updates
 - A fixed initial joint configuration (“ready-to-go” pose) for stable start.
 
-## Problem 2: Operating a Physical Robot (20 pts)
+## Problem 2: Operating a Physical Robot 
 
 ### 2A. RAPID Program in RobotStudio (Letters on A4)
 Description:
 - Write a RAPID program for the GoFa Education Station to draw the first letters of team members.
-- Stress test in RobotStudio and get evaluated before deploying to the real robot.
 
 Solution:
 - Each letter (B, L, J, T) was represented by persistent target points on an A4 workspace frame.
@@ -67,28 +66,15 @@ Solution:
 - ROS 2 middleware delivers trajectories to an ABB ROS 2 driver.
 - The driver streams compatible commands to the RobotStudio Virtual Controller for smooth interpolation and synchronized joint motion.
 
-### 2C. Presentation
-Description:
-- Present problem, approach, and solution (recorded video submission).
+## Demo Video
+### Simulation of CRB 15000 in Simulink:
+![Image](https://github.com/user-attachments/assets/9753742f-ed73-4d2f-a46b-27a2d3975a7b)
+### Simulation of CRB 15000 in RobotStudio:
+![Image](https://github.com/user-attachments/assets/176ca8d6-dc59-4e71-9295-07e1f4f54579)
+### Demonstration with the real GoFa CRB 15000
+![Image](https://github.com/user-attachments/assets/474979b5-c5e3-4d1f-ad4b-5bdf38d50d44)
+### Demo Result
+![Demo Result](https://github.com/user-attachments/assets/79e6f532-454c-4da4-8713-da859f2edda6)
 
-## How to Run (Typical Workflow)
-- Step 1: Run MATLAB scripts to generate DH/FK, Jacobian, and the BLJT trajectory.
-- Step 2: Export trajectory as traj_data.mat (used by Simulink / tracking).
-- Step 3: Open the Simulink model and run the Jacobian-based tracking simulation.
-- Step 4: RobotStudio:
-- Option A: Run RAPID letter-drawing program on the Virtual Controller.
-- Option B: Run ROS 2 trajectory streaming to execute the MATLAB-generated trajectory.
 
-## Demo Video (GitHub README-friendly)
-- Put your video here: assets/demo.mp4
-- Optional preview GIF: assets/demo.gif
 
-- Clickable preview (recommended):
-[![Demo](assets/demo.gif)](assets/demo.mp4)
-
-- Or simple link:
-Demo video: [Watch demo](assets/demo.mp4)
-
-## Notes
-- This repository is for educational use (RMIT MANU2478 Practical Assessment).
-- If you publish publicly, avoid uploading any restricted course materials that are not yours (e.g., lab backups/manuals).
